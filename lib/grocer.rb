@@ -30,12 +30,13 @@ end
    
    cart.each do |ar|
     # binding.pry
-     ar.each do |k,v|
-       if k == :item 
-   item_con = find_item_by_name_in_collection(v,new_array) 
+    # ar.each do |k,v|
+       #if k == :item 
+   item_con = find_item_by_name_in_collection(ar[:item],new_array) 
    
  
    if  item_con
+     
     item_con[:count] += 1 
   else
     
