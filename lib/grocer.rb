@@ -42,9 +42,9 @@ end
       end
     end
   else
-    new_array.each do |in|
+     cart.each do |ar|
       binding.pry
-   in[:count] = 1
+   ar[:count] = 1
    new_array << in
  end
 end  
