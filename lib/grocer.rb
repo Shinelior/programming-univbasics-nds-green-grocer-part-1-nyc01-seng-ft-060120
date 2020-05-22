@@ -34,7 +34,7 @@ end
        #if k == :item 
    item_con = find_item_by_name_in_collection(ar[:item],new_array) 
    
- 
+ new_array.each do |in|
    if  item_con
     
       if in[:iteam] == item_con[:iteam]
