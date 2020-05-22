@@ -29,7 +29,7 @@ end
    new_array = [] 
    
    cart.each do |ar|
-     binding.pry
+     
     # ar.each do |k,v|
        #if k == :item 
    item_con = find_item_by_name_in_collection(ar[:item],new_array) 
