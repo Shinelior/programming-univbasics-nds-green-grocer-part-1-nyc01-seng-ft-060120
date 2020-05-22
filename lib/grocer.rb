@@ -37,16 +37,17 @@ end
  
    if  item_con
     new_array.each do |in|
-      if in[:iteam] == 
-    item_con[:count] += 1 
+      if in[:iteam] == item_con[:iteam]
+        in[:count] += 1 
+      end
   else
     
-   ar[:count] = 1
-   new_array << cart
+   in[:count] = 1
+   new_array << in
 end  
 end 
 end 
- end  
+  
  return new_array
  end
  
