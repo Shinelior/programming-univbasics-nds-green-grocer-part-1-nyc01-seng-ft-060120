@@ -43,6 +43,7 @@ end
     end
   else
     new_array.each do |in|
+      binding.pry
    in[:count] = 1
    new_array << in
  end
