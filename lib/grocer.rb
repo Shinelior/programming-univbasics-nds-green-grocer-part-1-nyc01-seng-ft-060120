@@ -36,7 +36,8 @@ end
    
  
    if  item_con
-     
+    new_array.each do |in|
+      if in[:iteam] == 
     item_con[:count] += 1 
   else
     
