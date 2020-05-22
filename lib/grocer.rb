@@ -47,9 +47,8 @@ end
    ar[:count] = 1
    new_array << ar
  end
-end  
-
-return new_array
+ end  
+ return new_array
 end 
   
  
