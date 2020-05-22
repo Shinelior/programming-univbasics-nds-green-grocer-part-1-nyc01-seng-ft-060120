@@ -43,7 +43,7 @@ end
     end
   else
      #cart.each do |ar|
-      binding.pry
+      
    ar[:count] = 1
    new_array << ar
  end
