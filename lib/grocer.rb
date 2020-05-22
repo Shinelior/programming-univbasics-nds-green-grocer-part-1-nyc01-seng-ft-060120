@@ -42,9 +42,10 @@ end
       end
     end
   else
-    
+    new_array.each do |in|
    in[:count] = 1
    new_array << in
+ end
 end  
 end 
 return new_array
